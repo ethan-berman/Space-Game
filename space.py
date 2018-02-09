@@ -4,6 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
+from distutils.core import setup
+import py2exe
+
+setup(console=['hello.py'])
 class ship(object):
     def __init__(self, captain):
         self.captain = captain
